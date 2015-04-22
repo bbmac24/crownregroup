@@ -1,0 +1,71 @@
+body {
+  background-image: url('../images/background6.jpg');
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-color: #464646;
+  background-attachment: fixed; 
+}
+
+.logo {
+  position: absolute; 
+  left: 350px; 
+  top: 150px; 
+
+}
+
+img {
+  display: block;
+  width: 650px;
+  margin-top: 10%;
+
+}
+
+/* Media Quiery */
+
+@media only screen and (max-width: 959px) {
+  
+
+  body {
+    background-image: url('../images/background7.jpg'); 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-color: #464646;
+    background-attachment: fixed; 
+
+
+
+    }
+    .container-fluid {
+      width: 100%;
+    }
+    img {
+      width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+
+    .container-fluid {
+      width: 100%;
+    }
+    img {
+      width: 80%;
+    }
+  }
+
+    @media only screen and (max-width: 320px) {
+    
+
+    .container-fluid {
+      width: 320px;
+    }
+    img {
+      width: 200px;
+    }
+  }
+
+
+
+
